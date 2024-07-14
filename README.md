@@ -1,2 +1,2 @@
-# Android Cardboard Audio Graphics Display
- Displays shapes with audio on Google Cardboard
+# Cardboard Visualizer
+ Audio player with 3D Graphic for Google Cardboard

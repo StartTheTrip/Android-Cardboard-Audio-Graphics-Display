@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_visualizer"
+        android:icon="@drawable/play"
+        android:orderInCategory="1"
+        android:title="Visualizer"
+        app:actionProviderClass="android.support.v7.app.MediaRouteActionProvider"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_shuffle"
+        android:icon="@drawable/rand"
+        android:orderInCategory="1"
+        android:title="Shuffle"
+        app:actionProviderClass="android.support.v7.app.MediaRouteActionProvider"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_end"
+        android:icon="@drawable/end"
+        android:orderInCategory="2"
+        android:title="End"
+        app:actionProviderClass="android.support.v7.app.MediaRouteActionProvider"
+        app:showAsAction="always"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonToast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Toast" />
+
+    </LinearLayout>
+
+
+
+</menu>
